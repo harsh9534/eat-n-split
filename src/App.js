@@ -19,4 +19,10 @@ const initialFriends = [
   },
 ];
 
-export default function App() {}
+export default function App() {
+  <div className="app">
+    <div className="sidebar">
+    <FriendsList/>
+    </div>
+    </div>
+}
